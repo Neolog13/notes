@@ -1,0 +1,2 @@
+echo >> file.txt - создать файл
+rm(del для Windows) file.txt — удаляет файл file.txt

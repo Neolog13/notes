@@ -1,0 +1,22 @@
+uv venv - создать окружение
+.venv\Scripts\activate - активация окружения
+
+
+uv pip list - узнать, какие пакеты установлены
+uv pip freeze - Узнать версии установленных пакетов
+Если используется pyproject.toml: uv venv list - Покажет все виртуальные окружения, если используешь uv для управления окружениями.
+uv pip show <package-name> - Если нужно что-то конкретное — например, проверить установлен ли определённый пакет
+
+uv pip install-r requirements.txt - установка зависимостей из файла.
+uv pip install --upgrade -r requirements.txt - обновление всех зависимостей
+uv pip freeze > requirements.txt - создание списка всех установленных пакетов и версий
+
+
+Poetry
+poetry new - создание нового проекта
+poetry init - если проект уже создан
+лицензия: MIT
+poetry install - установит все зависимости
+poetry add "uvicorn[standard]"
+poetry show --tree - показывает дерево зависимостей
+poetry install --sync - синхронизация текущего окружения с тем что нужно установить
