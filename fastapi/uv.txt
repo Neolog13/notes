@@ -1,5 +1,5 @@
 uv venv - создать окружение
-.venv\Scripts\activate - активация окружения
+.venv\Scripts\activate - активация окружения - source .venv/bin/activate
 
 
 uv pip list - узнать, какие пакеты установлены
